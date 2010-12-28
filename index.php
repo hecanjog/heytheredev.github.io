@@ -6,9 +6,9 @@
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
 	<script type="text/javascript" src="http://www.heythere.org/js/jquery.cycle.all.js"></script>
-	
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/reset/reset-min.css" />
-	<link rel="stylesheet" type="text/css" href="http://www.heythere.org/css/main.css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:light,bold' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	
 	<script type="text/javascript"> 
 	$(document).ready(function() {
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<div id="master">
+	<div id="wrapper">
 		<div id="welcome">
 			<p><b>My name is <a href="mailto:erik@heythere.org">Erik Schoster</a> and I'm a web developer for hire.</b></p>
 
@@ -34,8 +34,8 @@
 		<div id="work">
 			<div>
 				<p>
-					I work primarily with <a href="http://php.net">PHP</a>/<a href="http://www.cakephp.org">CakePHP</a>, 
-					<a href="http://en.wikipedia.org/wiki/JavaScript">Javascript</a>/<a href="http://www.jquery.org">jQuery</a>, and tidy <a href="http://www.w3.org/standards/webdesign/htmlcss">HTML</a>/<a href="http://www.w3.org/standards/webdesign/htmlcss">CSS</a>. 
+					I work primarily with <a href="http://php.net" target="new">PHP</a>/<a href="http://www.cakephp.org" target="new">CakePHP</a>, 
+					<a href="http://en.wikipedia.org/wiki/JavaScript" target="new">Javascript</a>/<a href="http://www.jquery.org" target="new">jQuery</a>, and tidy <a href="http://www.w3.org/standards/webdesign/htmlcss" target="new">HTML</a>/<a href="http://www.w3.org/standards/webdesign/htmlcss" target="new">CSS</a>. 
 					If those names are greek to you, that's okay! Just know the technologies I work with are widely adopted, modern, and pretty neat.
 				</p>
 				
@@ -86,10 +86,6 @@
 					recycling initiative.
 				</p>
 			</div>
-		</div>
-		
-		<div id="footer">
-			<p>&nbsp;</p>
 		</div>
 	
 	</div>
