@@ -26,17 +26,19 @@
 <body>
 	<div id="wrapper">
 		<div id="welcome">
-			<p><b>My name is <a href="mailto:erik@heythere.org">Erik Schoster</a> and I'm a web developer for hire.</b></p>
+			<p><b>My name is <a href="mailto:erik@heythere.org">Erik Schoster</a> and I write software.</b></p>
 
 			<p class="arrows"><span class="prev">&larr;</span> &nbsp; <span class="next">&rarr;</span></p>
 		</div>
 
 		<div id="work">
 			<div>
-				<p>
-					I work primarily with <a href="http://php.net" target="new">PHP</a>/<a href="http://www.cakephp.org" target="new">CakePHP</a>, 
-					<a href="http://en.wikipedia.org/wiki/JavaScript" target="new">Javascript</a>/<a href="http://www.jquery.org" target="new">jQuery</a>, and tidy <a href="http://www.w3.org/standards/webdesign/htmlcss" target="new">HTML</a>/<a href="http://www.w3.org/standards/webdesign/htmlcss" target="new">CSS</a>. 
-					If those names are greek to you, that's okay! Just know the technologies I work with are widely adopted, modern, and pretty neat.
+<!--				<p>
+					I work primarily with <a href="http://python.org">Python</a>, <a href="http://php.net" target="new">PHP</a>, 
+					<a href="http://en.wikipedia.org/wiki/JavaScript" target="new">Javascript</a>, <a href="http://www.w3.org/standards/webdesign/htmlcss" target="new">HTML5</a>,
+					and <a href="http://www.w3.org/standards/webdesign/htmlcss" target="new">CSS3</a>.
+-->
+
 				</p>
 				
 				<p>
