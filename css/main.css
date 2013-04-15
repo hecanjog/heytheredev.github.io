@@ -8,14 +8,10 @@
 div#wrapper {
 	margin: 0 auto 0 auto;
 	padding-top: 20px;
-	width: 500px;
+	width: 400px;
 }
 
-div#welcome {
-	width: 500px;
-}
-
-div#welcome b {
+div#welcome span {
 	font-size: 40px;
 	line-height: 60px;
 	border-bottom: 2px solid #BBF34B;
@@ -23,51 +19,24 @@ div#welcome b {
 	margin-bottom: 10px;
 }
 
-div#welcome a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 700;
+div#main {
+    padding-top: 20px;
 }
 
-.arrows {
-	margin: 20px 0 20px 220px;
-	font-weight: bold!important;
-	font-size: 16px!important;
-	cursor: pointer;
-	color: #777;
+div#main p {
+    font-size: 24px;
 }
 
-.arrows span {
-	color: #000;
-	font-size: 24px!important;
+a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
 }
 
-div#work {
-	width: 500px;
+div#welcome a:hover {
+	color: #BBF34B;
 }
 
-div#work img {
-	cursor: pointer;
-	display: block;
-}
-
-div#work p {
-	background-color: #DEED00;
-	font-size: 16px;
-	line-height: 20px;
-	padding: 15px;
-	border-top: 5px solid #F9FF9B;
-	width: 470px;
-	margin: 0;
-	margin-bottom: 10px;
-}
-
-div#work a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 900;
-}
-
-div#work a:hover {
-	color: #949E00;
+div#main a:hover {
+	border-bottom: 2px solid #BBF34B;
 }
