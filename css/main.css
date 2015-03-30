@@ -5,13 +5,19 @@
 	letter-spacing: 1px;
 }
 
-div#wrapper {
+#wrapper {
 	margin: 0 auto 0 auto;
 	padding-top: 20px;
 	width: 400px;
 }
 
-div#welcome span {
+#welcome h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+#welcome span {
 	font-size: 30px;
 	line-height: 50px;
 	border-bottom: 2px solid #BBF34B;
@@ -19,11 +25,11 @@ div#welcome span {
 	margin-bottom: 10px;
 }
 
-div#main {
+#main {
     padding-top: 20px;
 }
 
-div#main p {
+#main p {
     font-size: 30px;
 }
 
@@ -33,10 +39,10 @@ a {
     text-decoration: none;
 }
 
-div#welcome a:hover {
+#welcome a:hover {
 	color: #BBF34B;
 }
 
-div#main a:hover {
+#main a:hover {
 	border-bottom: 2px solid #BBF34B;
 }
