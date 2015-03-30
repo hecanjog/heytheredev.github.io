@@ -12,8 +12,8 @@ div#wrapper {
 }
 
 div#welcome span {
-	font-size: 40px;
-	line-height: 60px;
+	font-size: 30px;
+	line-height: 50px;
 	border-bottom: 2px solid #BBF34B;
 	padding: 5px;
 	margin-bottom: 10px;
@@ -24,7 +24,7 @@ div#main {
 }
 
 div#main p {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 a {
