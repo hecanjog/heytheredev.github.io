@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    text-align: center;
+    background-color: darken($highlight-color, 15%);
+    padding: 8% 0;
+
+    h1, h2 {
+        margin: 0;
+        color: #fff;
+    }
+
+    h1 span {
+        color: lighten($highlight-color, 20%);
+    }
+
+    h1, h1 span {
+        font-weight: 900;
+    }
+
+    h2 {
+        font-weight: 300;
+    }
+}
+
+.summary {
+    font-size: 1.4em;
+    text-align: center;
+}

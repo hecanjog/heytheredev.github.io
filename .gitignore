@@ -3,3 +3,6 @@ r/*
 node_modules
 .sass-cache
 vendor
+*.swp
+*.swo
+*.swn
