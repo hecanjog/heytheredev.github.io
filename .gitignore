@@ -1,2 +1,4 @@
 git/*
 r/*
+node_modules
+.sass-cache
