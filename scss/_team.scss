@@ -26,4 +26,8 @@
     .erik .mugshot {
         background-image: url('/img/erik.jpg');
     }
+
+    .ross .mugshot {
+        background-color: lighten($highlight-color, 15%);
+    }
 }
