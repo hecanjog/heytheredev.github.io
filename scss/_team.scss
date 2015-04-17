@@ -3,9 +3,27 @@
     zoom: 1;
 
     article {
+        box-sizing: border-box;
         float: left;
         width: 33%;
         text-align: center;
+        padding: 10px 5px;
     }
     
+    .mugshot {
+        $mugshot-size: 150px;
+        width: $mugshot-size;
+        height: $mugshot-size;
+        margin: 0 auto;
+        @include border-radius($mugshot-size);
+        background-size: cover;
+    }
+
+    .brendan .mugshot {
+        background-image: url('/img/brendan.jpg');
+    }
+
+    .erik .mugshot {
+        background-image: url('/img/erik.jpg');
+    }
 }
