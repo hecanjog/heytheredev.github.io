@@ -11,6 +11,7 @@ $main-width: 550px;
 a {
     text-decoration: none;
     border-bottom: 2px solid $highlight-color;
+    font-weight: 700;
 
     &:hover {
         color: #000;
