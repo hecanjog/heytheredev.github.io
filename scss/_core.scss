@@ -3,9 +3,19 @@ $main-width: 550px;
 
 * {
 	font-family: 'Lato', verdana, sans-serif;
-	color: #333;
+	color: #444;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid $highlight-color;
+
+    &:hover {
+        color: #000;
+        border-bottom: 2px solid darken($highlight-color, 20%); 
+    }
 }
 
 main {
