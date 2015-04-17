@@ -1,6 +1,7 @@
 .team {
     overflow: hidden;
     zoom: 1;
+    padding-bottom: 10px;
 
     article {
         box-sizing: border-box;
@@ -8,6 +9,15 @@
         width: 33%;
         text-align: center;
         padding: 10px 5px;
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            margin-top: 5px;
+            font-size: 0.95em;
+        }
     }
     
     .mugshot {
