@@ -17,6 +17,9 @@
         margin: 0 auto;
         @include border-radius($mugshot-size);
         background-size: cover;
+        border: 6px solid lighten($highlight-color, 15%);
+
+        @include filter(saturate(60%));
     }
 
     .brendan .mugshot {
@@ -28,6 +31,6 @@
     }
 
     .ross .mugshot {
-        background-color: lighten($highlight-color, 15%);
+        background-image: url('/img/ross.jpg');
     }
 }

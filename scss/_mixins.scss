@@ -4,3 +4,10 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
+@mixin filter($filter) {
+  -webkit-filter: $filter;
+     -moz-filter: $filter;
+      -ms-filter: $filter;
+          filter: $filter;
+}
